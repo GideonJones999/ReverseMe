@@ -1,0 +1,14 @@
+﻿  Source.cpp
+c:\users\jonesgid000\documents\visual studio 2017\projects\reverseme\reverseme\source.cpp(39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\jonesgid000\documents\visual studio 2017\projects\reverseme\reverseme\source.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\jonesgid000\documents\visual studio 2017\projects\reverseme\reverseme\source.cpp(67): error C3867: 'std::vector<std::string,std::allocator<_Ty>>::begin': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=std::string
+          ]
+c:\users\jonesgid000\documents\visual studio 2017\projects\reverseme\reverseme\source.cpp(67): error C2664: 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> std::vector<std::string,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>)': cannot convert argument 1 from 'int' to 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>'
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\users\jonesgid000\documents\visual studio 2017\projects\reverseme\reverseme\source.cpp(67): note: No constructor could take the source type, or constructor overload resolution was ambiguous
